@@ -60,41 +60,41 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Footer = styled.footer`
-  text-align: center;
-  padding: 3rem 0;
-  span {
-    font-size: 0.75rem;
-  }
+	text-align: center;
+	padding: 3rem 0;
+	span {
+		font-size: 0.75rem;
+	}
 `;
 
 const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query LayoutQuery {
-        site {
-          buildTime(formatString: "DD.MM.YYYY")
-        }
-      }
-    `}
-    render={data => (
-      <ThemeProvider theme={theme}>
-        <React.Fragment>
-          <SEO />
-          <GlobalStyle />
-          {children}
-          <Footer>
-            &copy; 2018 by John Doe. All rights reserved. <br />
-            <a href="https://github.com/LekoArts/gatsby-starter-minimal-blog">GitHub Repository</a> <br />
-            <span>Last build: {data.site.buildTime}</span>
-          </Footer>
-        </React.Fragment>
-      </ThemeProvider>
-    )}
-  />
+	<StaticQuery
+		query={graphql`
+			query LayoutQuery {
+				site {
+					buildTime(formatString: "DD.MM.YYYY")
+				}
+			}
+		`}
+		render={(data) => (
+			<ThemeProvider theme={theme}>
+				<React.Fragment>
+					<SEO />
+					<GlobalStyle />
+					{children}
+					<Footer>
+						&copy; 2018 by Vera Simon. All rights reserved. <br />
+						<a href="https://github.com/LekoArts/gatsby-starter-minimal-blog">Template Repository</a> <br />
+						<span>Last build: {data.site.buildTime}</span>
+					</Footer>
+				</React.Fragment>
+			</ThemeProvider>
+		)}
+	/>
 );
 
 export default Layout;
 
 Layout.propTypes = {
-  children: PropTypes.oneOfType([PropTypes.array, PropTypes.node]).isRequired,
+	children: PropTypes.oneOfType([PropTypes.array, PropTypes.node]).isRequired
 };

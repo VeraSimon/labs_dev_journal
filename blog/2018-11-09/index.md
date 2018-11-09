@@ -4,183 +4,85 @@ title: 'Developer Journal: Week 1'
 category: 'Journal'
 ---
 
-[View raw (TEST.md)](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
+## Individual Accomplishments
 
-This is a paragraph.
+[@VeraSimon](https://github.com/VeraSimon): ![alt text](https://github.com/VeraSimon/portfolio/raw/master/blog/2018-11-09/contribution_graph.png 'Github Repo Contribution Graph')
 
-    This is a paragraph.
+Provide a paragraph (5-8 sentences) summarizing the work you did this week, the challenges you faced, the tools you used, and your accomplishments
 
-# Header 1
+## Tasks Pulled
 
-## Header 2
+### Monday 11/5:
 
-    Header 1
-    ========
+- Initializing the Github repository
+  - https://trello.com/c/hwEgp1JS/7-initialize-your-project
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/2
 
-    Header 2
-    --------
+### Tuesday 11/6:
 
-# Header 1
+- Getting a standardized PostgreSQL install set up for all the FSW developers
+  - https://trello.com/c/D47AjeHV/19-initialize-postgres-database
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/8
+- Set up specific .gitignore files for each of the three code bases
+  - https://trello.com/c/TqM006gG/34-global-gitignore-for-tool-settings
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/10
 
-## Header 2
+### Wednesday 11/7:
 
-### Header 3
+- Wiki documentation stubs to get development environments set up for each of the three code bases
+  - https://trello.com/c/OeSKz0iY/38-create-documentation-stubs-for-each-of-the-three-code-bases-for-environment-setup
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/13
+- Github pull request template
+  - https://trello.com/c/pvM0DeiB/41-github-pull-request-template
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/15
+- Set up a Base .gitignore file to ignore tool-specific configuration data put into the working directory
+  - https://trello.com/c/WgYhQG79/48-add-os-specific-content-to-base-gitignore
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/21
 
-#### Header 4
+### Thursday 11/8:
 
-##### Header 5
+- Deploy the React frontend to Netlify
+  - https://trello.com/c/t3OWPK6O/50-deploy-frontend-to-netlify
+  - https://trello.com/c/oW9FtsXC/12-deployed-to-the-web
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/25
+- Deploy the Django backend to Heroku
+  - https://trello.com/c/u35yvOlR/51-deploy-backend-to-heroku
+  - https://trello.com/c/oW9FtsXC/12-deployed-to-the-web
+- README.md update to reflect current wiki content
+  - https://trello.com/c/5XJ0wlYK/13-readme
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/27
 
-###### Header 6
+## Front End
 
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
+- Getting a standardized PostgreSQL install set up for all the FSW developers
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/8
+  - https://trello.com/c/D47AjeHV/19-initialize-postgres-database
+- Deploy the React frontend to Netlify
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/25
+  - https://trello.com/c/t3OWPK6O/50-deploy-frontend-to-netlify
+  - https://trello.com/c/oW9FtsXC/12-deployed-to-the-web
 
-# Header 1
+## Back End
 
-## Header 2
+- Getting a standardized PostgreSQL install set up for all the FSW developers
+  - https://trello.com/c/D47AjeHV/19-initialize-postgres-database
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/8
+- Deploy the Django backend to Heroku
+  - https://github.com/Lambda-School-Labs/Labs8-OfflineReader/issues/24
+  - https://trello.com/c/u35yvOlR/51-deploy-backend-to-heroku
+  - https://trello.com/c/oW9FtsXC/12-deployed-to-the-web
 
-### Header 3
+## Detailed Analysis
 
-#### Header 4
+Pick one of your tickets and provide a detailed analysis of the work you did. This should be approximately ¼ page of text, and at least three screenshots.
+![alt text](https://github.com/VeraSimon/portfolio/raw/master/blog/2018-11-09/image.png 'Alt Text')
 
-##### Header 5
+## thing
 
-###### Header 6
+As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences forming a team. What did you do to help the team solidify as a group? What did you do that you now realize caused friction in this process?
 
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
+As a group, provide links to evidence that:
 
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> ## This is a header.
->
-> 1. This is the first list item.
-> 2. This is the second list item.
->
-> Here's some example code:
->
->     Markdown.generate();
-
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
-
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-
-```markdown
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-```
-
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-
-```markdown
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-```
-
-Paragraph:
-
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
-
----
-
----
-
----
-
----
-
----
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-This is [an example](http://example.com 'Example') link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com 'Optional Title'
-
-    This is [an example](http://example.com "Example") link.
-
-    [This link](http://example.com) has no title attr.
-
-    This is [an example] [id] reference-style link.
-
-    [id]: http://example.com "Optional Title"
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-This paragraph has some `code` in it.
-
-    This paragraph has some `code` in it.
-
-![Alt Text](https://placehold.it/200x50 'Image Title')
-
-    ![Alt Text](https://placehold.it/200x50 "Image Title")
+Front end is deployed with a recognizable name. The site can be visited and will load a simple message
+Back end is deployed with a recognizable name. The address can be visited and will return data
+User accounts are created: Either through a tool, or the front end, a user account can be created and signed in.

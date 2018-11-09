@@ -6,8 +6,9 @@ category: 'Journal'
 
 ## Individual Accomplishments
 
-- [@VeraSimon](https://github.com/VeraSimon):
-- ![alt text](https://github.com/VeraSimon/portfolio/raw/master/blog/2018-11-09/contribution_graph.png 'Github Repo Contribution Graph')
+[@VeraSimon](https://github.com/VeraSimon)
+
+![alt text](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-09/contribution_graph.png 'Github Repo Contribution Graph')
 
 My week was full of a lot of initial initialization and engineering tasks, though I didn't get to code as much as I might have liked. Still, the tasks I accomplished, such as standardizing the dev environment database with a PostgreSQL Docker container, and getting a bunch of the finer details on the git repo taken care of, such as global and codebase specific .gitignore's and a pull template to streamline the pull process for the developers, make all the difference between a team that flounders and a team that's set up to accomplish a task. I was also able to get the frontend deployed to Netlify, along with continuous deployment set up and running successfully. In addition, I was able to accomplish a manual deploy of the Django backend and connect it up to PostgreSQL, ensuring we had a good starting point. Setting up continuous deployment for the backend is ongoing.
 
@@ -77,7 +78,7 @@ My week was full of a lot of initial initialization and engineering tasks, thoug
 
 The front and back end deployments were an interesting experience. The frontend specifically did not prove much of a challenge via Netlify, as I had previous experience using it with a repo that had the project in a subdirectory, but the backend deployment proved to be vexing. This is the FSW teams first foray into using Django at all, so there were a lot of initial growing pains in that arena especially, but then subsequently getting the app deployed from a subdirectory and connected to the postgres database was difficult. After a long FSW Zoom session, we _were_ able to eventually get it deployed and connected though, with much celebration throughout.
 
-- ![alt text](https://github.com/VeraSimon/portfolio/raw/master/blog/2018-11-09/django_admin.png 'Django Admin Panel')
+![alt text](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-09/django_admin.png 'Django Admin Panel')
 
 ## Experience forming a team
 
@@ -89,4 +90,5 @@ I've actually built and supervised teams in previous positions, so I was able to
 
 - [Frontend](https://anywhere-reader-test.netlify.com/)
 - [Backend](https://anywhere-reader-test.herokuapp.com)
-- ![alt text](https://github.com/VeraSimon/portfolio/raw/master/blog/2018-11-09/django_admin.png 'Django Admin Panel')
+
+![alt text](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-09/django_admin.png 'Django Admin Panel')

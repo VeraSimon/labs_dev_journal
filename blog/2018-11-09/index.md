@@ -6,9 +6,10 @@ category: 'Journal'
 
 ## Individual Accomplishments
 
-[@VeraSimon](https://github.com/VeraSimon): ![alt text](https://github.com/VeraSimon/portfolio/raw/master/blog/2018-11-09/contribution_graph.png 'Github Repo Contribution Graph')
+- [@VeraSimon](https://github.com/VeraSimon):
+- ![alt text](https://github.com/VeraSimon/portfolio/raw/master/blog/2018-11-09/contribution_graph.png 'Github Repo Contribution Graph')
 
-Provide a paragraph (5-8 sentences) summarizing the work you did this week, the challenges you faced, the tools you used, and your accomplishments
+My week was full of a lot of initial initialization and engineering tasks, though I didn't get to code as much as I might have liked. Still, the tasks I accomplished, such as standardizing the dev environment database with a PostgreSQL Docker container, and getting a bunch of the finer details on the git repo taken care of, such as global and codebase specific .gitignore's and a pull template to streamline the pull process for the developers, make all the difference between a team that flounders and a team that's set up to accomplish a task. I was also able to get the frontend deployed to Netlify, along with continuous deployment set up and running successfully. In addition, I was able to accomplish a manual deploy of the Django backend and connect it up to PostgreSQL, ensuring we had a good starting point. Setting up continuous deployment for the backend is ongoing.
 
 ## Tasks Pulled
 
@@ -74,15 +75,18 @@ Provide a paragraph (5-8 sentences) summarizing the work you did this week, the 
 
 ## Detailed Analysis
 
-Pick one of your tickets and provide a detailed analysis of the work you did. This should be approximately ¼ page of text, and at least three screenshots.
-![alt text](https://github.com/VeraSimon/portfolio/raw/master/blog/2018-11-09/image.png 'Alt Text')
+The front and back end deployments were an interesting experience. The frontend specifically did not prove much of a challenge via Netlify, as I had previous experience using it with a repo that had the project in a subdirectory, but the backend deployment proved to be vexing. This is the FSW teams first foray into using Django at all, so there were a lot of initial growing pains in that arena especially, but then subsequently getting the app deployed from a subdirectory and connected to the postgres database was difficult. After a long FSW Zoom session, we _were_ able to eventually get it deployed and connected though, with much celebration throughout.
 
-## thing
+- ![alt text](https://github.com/VeraSimon/portfolio/raw/master/blog/2018-11-09/django_admin.png 'Django Admin Panel')
+
+## Experience forming a team
 
 As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences forming a team. What did you do to help the team solidify as a group? What did you do that you now realize caused friction in this process?
 
-As a group, provide links to evidence that:
+I've actually built and supervised teams in previous positions, so I was able to help avoid a lot of the initial growing pains as our group formed and started to get rolling. I made sure throughout the week that the small touches on the code base were in place, such as proper .gitignore files and a pull template, and also went out of my way to get some standardized tooling in place on the developer side of the house, specifically including a standardized PostgreSQL Docker container using the same version that Heroku uses in production. This made ramping up the backend side of the code base a lot smoother than it could have been, with a bunch of developers using different infrastructure with major and minor changes that could make or break a code base. As far as growing pains are concerned, getting all of the developers to use a specific branching strategy without being able to explicitly enforce it via Github is proving difficult, and our coding style standards are still a bit looser than I would like. Overall though, I believe we're all off to a pretty solid start, and I hope the experience of working with this group continues to be as pleasant as week one.
 
-Front end is deployed with a recognizable name. The site can be visited and will load a simple message
-Back end is deployed with a recognizable name. The address can be visited and will return data
-User accounts are created: Either through a tool, or the front end, a user account can be created and signed in.
+## Weekly Milestones
+
+- [Frontend](https://anywhere-reader-test.netlify.com/)
+- [Backend](https://anywhere-reader-test.herokuapp.com)
+- ![alt text](https://github.com/VeraSimon/portfolio/raw/master/blog/2018-11-09/django_admin.png 'Django Admin Panel')

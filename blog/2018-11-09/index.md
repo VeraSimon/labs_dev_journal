@@ -82,8 +82,6 @@ The front and back end deployments were an interesting experience. The frontend 
 
 ## Experience forming a team
 
-As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences forming a team. What did you do to help the team solidify as a group? What did you do that you now realize caused friction in this process?
-
 I've actually built and supervised teams in previous positions, so I was able to help avoid a lot of the initial growing pains as our group formed and started to get rolling. I made sure throughout the week that the small touches on the code base were in place, such as proper .gitignore files and a pull template, and also went out of my way to get some standardized tooling in place on the developer side of the house, specifically including a standardized PostgreSQL Docker container using the same version that Heroku uses in production. This made ramping up the backend side of the code base a lot smoother than it could have been, with a bunch of developers using different infrastructure with major and minor changes that could make or break a code base. As far as growing pains are concerned, getting all of the developers to use a specific branching strategy without being able to explicitly enforce it via Github is proving difficult, and our coding style standards are still a bit looser than I would like. Overall though, I believe we're all off to a pretty solid start, and I hope the experience of working with this group continues to be as pleasant as week one.
 
 ## Weekly Milestones

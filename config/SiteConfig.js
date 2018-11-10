@@ -13,7 +13,7 @@ module.exports = {
 
 	// siteFBAppID: '123456789', // Facebook App ID - Optional
 	//   userTwitter: '@minimal', // Twitter Username - Optional
-	userTwitter: '',
+	userTwitter: '@VeraSimonDev',
 	ogSiteName: 'minimal', // Facebook Site Name - Optional
 	ogLanguage: 'en_US', // Facebook Language
 

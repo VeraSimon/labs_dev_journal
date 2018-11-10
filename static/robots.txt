@@ -3,4 +3,4 @@ Disallow:
 
 Allow: https://vks-portfolio.netlify.com/
 
-sitemap: https://minimal-blog.netlify.com/sitemap.xml
+sitemap: https://vks-portfolio.netlify.com/sitemap.xml

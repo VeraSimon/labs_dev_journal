@@ -7,14 +7,14 @@ module.exports = {
 	siteLanguage: 'en', // Language Tag on <html> element
 	siteBanner: '/social/banner.jpg', // Your image for og:image tag. You can find it in the /static folder
 	favicon: 'src/favicon.png', // Your image for favicons. You can find it in the /src folder
-	siteDescription: 'Minimal Blog with big typography', // Your site description
-	author: 'LekoArts', // Author for schemaORGJSONLD
+	siteDescription: 'A dev journal and sometimes portfolio for Vera', // Your site description
+	author: 'Vera Simon', // Author for schemaORGJSONLD
 	siteLogo: '/social/logo.png', // Image for schemaORGJSONLD
 
 	// siteFBAppID: '123456789', // Facebook App ID - Optional
 	//   userTwitter: '@minimal', // Twitter Username - Optional
 	userTwitter: '@VeraSimonDev',
-	ogSiteName: 'minimal', // Facebook Site Name - Optional
+	ogSiteName: "Vera's Awesome Dev Portfolio", // Facebook Site Name - Optional
 	ogLanguage: 'en_US', // Facebook Language
 
 	// Manifest and Progress color

@@ -55,6 +55,12 @@ category: 'Journal'
 
 <!-- Description from labs training kit page for the week -->
 
+## Whiteboarding session
+
+<!-- Add a link to the weeks whiteboarding session -->
+
+- [text](link)
+
 ## Weekly Milestones
 
 <!-- insert stuff here -->

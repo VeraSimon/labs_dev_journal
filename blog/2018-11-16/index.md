@@ -76,6 +76,12 @@ This week has been a rough one on a couple of fronts. To start, we due to Vetera
 
 As far as the specific integration bits, I spent a decent portion of the week helping one of my team members with the integration of the stripe API into our project, each alternating on working with the frontend and backend portions of it to get things working. The backend portion of strip has proved particularly challenging, especially in regard to things relating to CORS and CORB, as we were both still getting used to working with the 'django-cors-headers' Python library. As it stands, we have a toy frontend and backend that work seemlessly with stripe, and our integration of the frontend changes into the codebase appear to work as expected, but the integration of code into the backend is hitting some CORS/CORB issues that we've yet to iron out. Otherwise the payment chain works successfully all the way until the backend tries to send the success/failure message back to the frontend.
 
+## Whiteboarding session
+
+<!-- Add a link to the weeks whiteboarding session -->
+
+- [Rock, Paper, Scissors](https://www.youtube.com/watch?v=QOb4PD3loHw)
+
 ## Weekly Milestones
 
 <!-- As a group, provide links to evidence that:

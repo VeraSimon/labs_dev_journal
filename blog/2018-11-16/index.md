@@ -60,7 +60,11 @@ With a little egg on face, I continued forward with the deploy to discover that 
 
 ![Successfully deployed!](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-16/dep_success.png 'Deploy success!')
 
+---
+
 ![The continuous deployment configuration](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-16/dep_config.png 'Deploy configuration')
+
+---
 
 ![Deployed site](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-16/dep_site.png 'Deployed site')
 
@@ -80,18 +84,26 @@ Users can create accounts and log in through the front end via OAuth
 All APIs and services are connected and can be interacted with through the front end. A test message is acceptable to meet this requirement
  -->
 
-Users can create accounts and log in through the front end via OAuth:
+### Users can create accounts and log in through the front end via OAuth
 
 ![Facebook auth](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-16/facebook-pop-up.jpg 'Facebook auth')
 
+---
+
 ![Facebook auth](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-16/facebook-console-log.jpg 'Facebook auth')
+
+---
 
 ![Google auth](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-16/google-auth.png 'Google auth')
 
+---
+
 ![Google auth code](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-16/google-auth-code.png 'Google auth code')
 
-All APIs and services are connected and can be interacted with through the front end:
+### All APIs and services are connected and can be interacted with through the front end
 
 ![Stripe frontend shenanigans](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-16/frontend-stripe-cors-corb.png 'Stripe frontend shenanigans')
+
+---
 
 ![Stripe backend doing its thing](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-11-16/backend-stripe-response.png 'Stripe backend doing its thing')

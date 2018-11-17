@@ -55,11 +55,13 @@ category: 'Journal'
 
 <!-- Description from labs training kit page for the week -->
 
-## Whiteboarding session
+## Whiteboarding Session
+
+- [Whiteboarding playlist](https://www.youtube.com/playlist?list=PLw5W0SfMYtxWUrDu0Y0jDRIiNv3et_TZz)
 
 <!-- Add a link to the weeks whiteboarding session -->
 
-- [text](link)
+- [session text](link)
 
 ## Weekly Milestones
 

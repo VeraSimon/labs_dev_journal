@@ -61,7 +61,7 @@ category: 'Journal'
 
 <!-- Add a link to the weeks whiteboarding session -->
 
-- [session text](link)
+- [session title](link)
 
 ## Weekly Milestones
 

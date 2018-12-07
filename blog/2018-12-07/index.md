@@ -8,7 +8,7 @@ category: 'Journal'
 
 [@VeraSimon](https://github.com/VeraSimon)
 
-![Contribution Graph](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/DATE_HERE/contribution_graph.png 'Github Repository Contribution Graph')
+![Contribution Graph](https://raw.githubusercontent.com/VeraSimon/portfolio/master/blog/2018-12-07/contribution_graph.png 'Github Repository Contribution Graph')
 
 <!-- Provide a paragraph (5-8 sentences) summarizing the work you did this week, the challenges you faced, the tools you used, and your accomplishments. -->
 
